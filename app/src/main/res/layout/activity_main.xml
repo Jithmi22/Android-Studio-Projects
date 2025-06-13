@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="MainActivity"
+    android:id="@+id/main"
+    android:background="#E5CCFF">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Hobbies"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+    <CheckBox
+        android:id="@+id/chkReading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reading" />
+
+    <CheckBox
+        android:id="@+id/chkTraveling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Traveling" />
+
+    <CheckBox
+        android:id="@+id/chkGaming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaming" />
+
+    <CheckBox
+        android:id="@+id/chkCooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cooking"/>
+
+    <Button
+        android:id="@+id/btnShowSelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Selected Hobbies"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#9933FF"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
